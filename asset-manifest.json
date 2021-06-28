@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pricing-component/static/css/main.b0a8aa7b.chunk.css",
+    "main.js": "/pricing-component/static/js/main.5b4f81fb.chunk.js",
+    "main.js.map": "/pricing-component/static/js/main.5b4f81fb.chunk.js.map",
+    "runtime-main.js": "/pricing-component/static/js/runtime-main.21ccccfe.js",
+    "runtime-main.js.map": "/pricing-component/static/js/runtime-main.21ccccfe.js.map",
+    "static/js/2.0fcb97e9.chunk.js": "/pricing-component/static/js/2.0fcb97e9.chunk.js",
+    "static/js/2.0fcb97e9.chunk.js.map": "/pricing-component/static/js/2.0fcb97e9.chunk.js.map",
+    "index.html": "/pricing-component/index.html",
+    "static/css/main.b0a8aa7b.chunk.css.map": "/pricing-component/static/css/main.b0a8aa7b.chunk.css.map",
+    "static/js/2.0fcb97e9.chunk.js.LICENSE.txt": "/pricing-component/static/js/2.0fcb97e9.chunk.js.LICENSE.txt",
+    "static/media/bg-pattern.76d3fa7d.svg": "/pricing-component/static/media/bg-pattern.76d3fa7d.svg",
+    "static/media/slider.scss": "/pricing-component/static/media/icon-slider.cbca35e0.svg",
+    "static/media/pattern-circles.9f6ed14b.svg": "/pricing-component/static/media/pattern-circles.9f6ed14b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21ccccfe.js",
+    "static/js/2.0fcb97e9.chunk.js",
+    "static/css/main.b0a8aa7b.chunk.css",
+    "static/js/main.5b4f81fb.chunk.js"
+  ]
+}
