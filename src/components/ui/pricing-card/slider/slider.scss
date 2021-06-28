@@ -61,10 +61,17 @@
 	appearance: none;
 	width: 25px;
 	height: 25px;
+	background: url("./icon-slider.svg");
+	background-size: 65%;
+	background-repeat: no-repeat;
+	background-position: center;
 	background: #10d8c4;
 	cursor: pointer;
 	border: none;
 	outline: none;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 }
 
 .slider::-moz-range-thumb {
