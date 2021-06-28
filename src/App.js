@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Store from "./components/helpers/Store";
+import { PricingCard } from "./components/ui/pricing-card/PricingCard";
+import bgSvg from "./assets/bg-pattern.svg";
+import circleSVG from "./assets/pattern-circles.svg";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import "./sassStyles/_global.scss";
 
-export default App;
+export const App = () => {
+	return (
+		<Store>
+			<div className="body-content">
+				<div
+					className="wrapper"
+					style={{ backgroundImage: `url(${bgSvg})` }}
+				></div>
+				<div className="container">
+					<div className="header">
+						<img src={circleSVG} />
+						<h2>Simple, traffic-based pricing</h2>
+						<p>Sign-up for our 30-day trial. No credit card required. </p>
+					</div>
+					<PricingCard />
+				</div>
+			</div>
+		</Store>
+	);
+};

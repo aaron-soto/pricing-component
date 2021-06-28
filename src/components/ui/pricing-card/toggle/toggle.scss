@@ -1,0 +1,122 @@
+/* The switch - the box around the slider */
+.toggle-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0 40px 0;
+
+	span {
+		font-weight: 600;
+		color: #848ead;
+		font-size: 12px;
+
+		&.typeTag {
+			position: relative;
+		}
+
+		&.yearly {
+			&:before {
+				content: "25% discount";
+				position: absolute;
+				color: #ff8d68;
+				background-color: #feede8;
+				left: 110%;
+				top: 50%;
+				transform: translateY(-50%);
+				white-space: nowrap;
+				padding: 3px 6px;
+				border-radius: 9px;
+			}
+		}
+	}
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 43px;
+	height: 22px;
+	margin: 0 16px;
+}
+
+// ball is 8px shorter than bg
+
+/* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.ball {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.ball:before {
+	position: absolute;
+	content: "";
+	height: 18px;
+	width: 18px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked + .ball {
+	background-color: #7aeadf;
+}
+
+input:focus + .ball {
+	box-shadow: 0 0 1px #7aeadf;
+}
+
+input:checked + .ball:before {
+	-webkit-transform: translateX(21px);
+	-ms-transform: translateX(21px);
+	transform: translateX(21px);
+}
+
+/* Rounded sliders */
+.ball.round {
+	border-radius: 34px;
+	background-color: #cfd8ef;
+}
+
+.ball.round:before {
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.toggle-wrapper {
+		margin-top: 2rem;
+
+		span {
+			&.typeTag {
+				font-size: 12px;
+			}
+
+			&.yearly {
+				&:before {
+					content: "-25%";
+					font-size: 10px;
+				}
+			}
+		}
+
+		.switch {
+			margin: 0 10px;
+		}
+	}
+}

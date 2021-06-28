@@ -1,0 +1,22 @@
+@import "./variables";
+
+// Breakpoints
+
+@mixin customMinBreakPoint($size) {
+	@media (min-width: $size+"px") {
+		@content;
+	}
+}
+
+@mixin customMaxBreakPoint($size) {
+	@media (max-width: $size+"px") {
+		@content;
+	}
+}
+
+// LAYOUTS
+
+@mixin center-align {
+	display: flex;
+	align-items: center;
+}
