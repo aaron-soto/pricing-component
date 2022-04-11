@@ -58,7 +58,7 @@ I really enjoyed and plan on learning more about dynamically rendering the numbe
 
 ## Author
 
-- Website - [Add your name here](https://aaronsoto.io)
+- Website - [Aaron Soto](https://aaronsoto.io)
 - Frontend Mentor - [@aaron-soto](https://www.frontendmentor.io/profile/aaron-soto)
 - Github - [@aaron-soto](https://github.com/aaron-soto)
 - Linkedin - [@aaron-soto1](https://www.linkedin.com/in/aaron-soto1/)
